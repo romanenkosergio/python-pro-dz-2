@@ -1,0 +1,17 @@
+{% extends 'extends/base.html' %}
+
+{% block content %}
+<h1>Requirements</h1>
+    <table>
+        <row>
+            <th>Module</th>
+            <th>Version</th>
+        </row>
+    {% for row in requirements %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock %}

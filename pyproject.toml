@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flaskproject"
+version = "0.1.0"
+description = ""
+authors = ["romanenkosergio <sergromanenko97@gmail.copoetry a>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.3"
+faker = "^18.4.0"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
